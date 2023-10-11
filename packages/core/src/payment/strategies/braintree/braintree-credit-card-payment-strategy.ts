@@ -65,6 +65,7 @@ export default class BraintreeCreditCardPaymentStrategy implements PaymentStrate
             this._handleError(error);
         }
 
+        //
         return this._store.getState();
     }
 
